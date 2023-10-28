@@ -62,7 +62,6 @@ if __name__ == "__main__":
             and pub_worker[1] not in pubs_workers.values()
         ):
             pubs_workers[pub_worker[0]] = pub_worker[1]
-
-    print(pubs_workers)
+            print({pub_worker[0]: pub_worker[1]})
 
     # _____________________________________________
